@@ -1,4 +1,5 @@
 import React from 'react';
+import FreeDraw from './components/FreeDraw';
 import logo from './logo.svg';
 import './App.css';
 
@@ -19,6 +20,8 @@ function App() {
           Learn React
         </a>
       </header>
+      <hr />
+      <FreeDraw />
     </div>
   );
 }
